@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio </title>
+    <link rel="stylesheet" href="folio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>
+                Muhammed
+            </h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">projcts</a></li>
+            </ul>
+            <button id="btn"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+    </header>
+    <div class="s-container">
+        <div class="content">
+            <p class="subtitle">
+                hello
+            </p>
+            <h1 class="title">
+                I'm <span>Muhammed <br></span> a devoloper
+            </h1>
+            <p class="description">
+                welcome to my portfolio, i am here to innovation meets excellence. i'm  dedicated to providing top-tier products and services that cater to your unique needs. Our commitment to quality, customer satisfaction, and continuous improvement sets us apart in the industry. Whether you're here to explore our diverse offerings, gain insights from our expert content, or connect with our passionate community, we strive to deliver an exceptional online experience. Join us on our journey to redefine standards and exceed expectations. Discover the difference today.</p>
+            <div class="buttons">
+                <a href="muhammednk536@gmail.com">Hier Me</a>
+                <button>Portfolio</button>
+            </div>
+        </div>
+        <div class="image">
+              <img src="WhatsApp Image 2024-06-13 at 15.51.14_52f0132d.jpg" alt="">
+        </div>
+    </div>
+</body>
+<script> 
+   const btn = document.getElementById("btn")
+   btn.addEventListener("click",() =>{
+    document.querySelector("header ul").classList.toggle("show")
+   })
+</script>
+</html>
